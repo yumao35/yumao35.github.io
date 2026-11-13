@@ -4358,7 +4358,13 @@
       inset: 0;
       z-index: 56;
       display: grid;
-      place-items: center;
+      /* 第一百一十九轮：广告卡片从页面正中挪到底部。
+         横屏时居中的卡片正好压在人物和鱼竿上，挡视线；贴底更像一条
+         bottom sheet，看完顺手就能关。底部留出安全区，不被手机圆角 /
+         手势条切掉。 */
+      align-items: end;
+      justify-items: center;
+      padding: 0 16px max(28px, calc(env(safe-area-inset-bottom) + 18px));
       background: rgba(24, 19, 15, 0.42);
       opacity: 0;
       pointer-events: none;
@@ -4377,8 +4383,8 @@
       border-radius: 18px;
       box-shadow: 0 8px 0 rgba(36, 29, 24, 0.32);
       padding: 16px 18px 14px;
-      transform: translateY(10px) scale(0.98);
-      transition: transform 0.22s ease;
+      transform: translateY(26px) scale(0.98);
+      transition: transform 0.24s ease;
     }
 
     .corner-ad-overlay.is-open .corner-ad-card {
@@ -8806,8 +8812,8 @@ html body.touch-ui .challenge-body {
     body.touch-ui .tutorial-list li { padding: 7px 10px; }
     body.touch-ui .tutorial-note { margin-top: 8px; }
 </style>
-<meta name="build-id" content="20261113-212345-896986abe2">
-<script>window.__BUILD_ID__="20261113-212345-896986abe2";console.info("%c苔屿 "+window.__BUILD_ID__,"color:#a78b57");</script>
+<meta name="build-id" content="20261113-212650-91edc7db6e">
+<script>window.__BUILD_ID__="20261113-212650-91edc7db6e";console.info("%c苔屿 "+window.__BUILD_ID__,"color:#a78b57");</script>
 </head>
 <body>
   <div id="sky"></div>
