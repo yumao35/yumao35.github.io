@@ -1,0 +1,2494 @@
+{
+  "version": 2,
+  "note": "《钓鱼时光》音效候选清单，由 tools/build-sfx-pool.py 生成。",
+  "slots": [
+    {
+      "id": "cast",
+      "label": "抛竿",
+      "group": "钓鱼",
+      "desc": "抛线时杆梢划过空气的声音。",
+      "picks": [
+        {
+          "file": "pool/cast/01-airy.ogg",
+          "label": "海风呼啸",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 26543,
+          "pack": "Rescopic Sound - Distinct Whooshes"
+        },
+        {
+          "file": "pool/cast/02-speed.ogg",
+          "label": "迅捷破空",
+          "tag": "电子",
+          "dur": 1.73,
+          "size": 15349,
+          "pack": "Rescopic Sound - Distinct Whooshes"
+        },
+        {
+          "file": "pool/cast/03-slow.ogg",
+          "label": "沉缓挥杆",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 26738,
+          "pack": "Rescopic Sound - Distinct Whooshes"
+        },
+        {
+          "file": "pool/cast/04-synth.ogg",
+          "label": "电子脉冲",
+          "tag": "电子",
+          "dur": 2.0,
+          "size": 19874,
+          "pack": "Rogue Waves - Anime Studio"
+        },
+        {
+          "file": "pool/cast/05-low.ogg",
+          "label": "低鸣气流",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 16264,
+          "pack": "Chupapsound - Essential Scifi"
+        },
+        {
+          "file": "pool/cast/06-glass.ogg",
+          "label": "碎晶穿梭",
+          "tag": "电子",
+          "dur": 2.0,
+          "size": 22699,
+          "pack": "Epic Stock Media - Elemental Mutation Whooshes and Impacts"
+        },
+        {
+          "file": "pool/cast/07-gale.ogg",
+          "label": "长风拂过",
+          "tag": "自然",
+          "dur": 1.02,
+          "size": 13193,
+          "pack": "344 Audio - Elemental Palette Designed Vol. 1"
+        },
+        {
+          "file": "pool/cast/08-whip.ogg",
+          "label": "竿梢抽空",
+          "tag": "自然",
+          "dur": 0.7,
+          "size": 10324,
+          "pack": "David Dumais Audio - Melee Weapons Sound Effects Pack 2"
+        },
+        {
+          "file": "pool/cast/09-swoosh.ogg",
+          "label": "抽线破空",
+          "tag": "自然",
+          "dur": 0.7,
+          "size": 11951,
+          "pack": "Cinematic Sound Design - Cartoon & Animation Vol 2"
+        },
+        {
+          "file": "pool/cast/10-slice.ogg",
+          "label": "挥竿切风",
+          "tag": "自然",
+          "dur": 0.8,
+          "size": 11444,
+          "pack": "Epic Stock Media - Tower Defense Game"
+        }
+      ]
+    },
+    {
+      "id": "splash",
+      "label": "入水",
+      "group": "钓鱼",
+      "desc": "鱼钩落水的水花。",
+      "picks": [
+        {
+          "file": "pool/splash/01-under.ogg",
+          "label": "潜入水下",
+          "tag": "水",
+          "dur": 3.0,
+          "size": 16943,
+          "pack": "BluezoneCorp - Designed Water"
+        },
+        {
+          "file": "pool/splash/02-impact.ogg",
+          "label": "水花迸溅",
+          "tag": "水",
+          "dur": 1.82,
+          "size": 27388,
+          "pack": "InMotionAudio - Submerge"
+        },
+        {
+          "file": "pool/splash/03-deep.ogg",
+          "label": "深海涌动",
+          "tag": "水",
+          "dur": 2.15,
+          "size": 23901,
+          "pack": "Epic Stock Media - Elemental Mutation Whooshes and Impacts"
+        },
+        {
+          "file": "pool/splash/04-soft.ogg",
+          "label": "涟漪轻拍",
+          "tag": "水",
+          "dur": 3.0,
+          "size": 34968,
+          "pack": "Justsoundeffects - Water in Motion"
+        },
+        {
+          "file": "pool/splash/05-foam.ogg",
+          "label": "泡沫冲击",
+          "tag": "水",
+          "dur": 1.14,
+          "size": 14472,
+          "pack": "344 Audio - Elemental Palette Designed Vol. 1"
+        },
+        {
+          "file": "pool/splash/06-shore.ogg",
+          "label": "浪涌拍岸",
+          "tag": "水",
+          "dur": 3.0,
+          "size": 28837,
+          "pack": "Nick McMahan - Cascadia Shore Waves"
+        },
+        {
+          "file": "pool/splash/07-dropecho.ogg",
+          "label": "水滴回声",
+          "tag": "水",
+          "dur": 2.0,
+          "size": 20223,
+          "pack": "InMotionAudio - Cave Design"
+        }
+      ]
+    },
+    {
+      "id": "bite",
+      "label": "咬钩",
+      "group": "钓鱼",
+      "desc": "鱼咬钩那一瞬间的轻响，要短、要脆。",
+      "picks": [
+        {
+          "file": "pool/bite/01-pop.ogg",
+          "label": "气泡轻爆",
+          "tag": "短促",
+          "dur": 0.63,
+          "size": 7901,
+          "pack": "Rogue Waves - Kawaii UI"
+        },
+        {
+          "file": "pool/bite/02-bubble.ogg",
+          "label": "水泡咕噜",
+          "tag": "水",
+          "dur": 1.14,
+          "size": 14472,
+          "pack": "344 Audio - Elemental Palette Designed Vol. 1"
+        },
+        {
+          "file": "pool/bite/03-cartoon.ogg",
+          "label": "卡通水泡",
+          "tag": "卡通",
+          "dur": 0.87,
+          "size": 7186,
+          "pack": "Cinematic Sound Design - Cartoon & Animation Vol 2"
+        },
+        {
+          "file": "pool/bite/04-fizz.ogg",
+          "label": "碳酸嘶响",
+          "tag": "水",
+          "dur": 1.5,
+          "size": 17540,
+          "pack": "Justsoundeffects - Water in Motion"
+        },
+        {
+          "file": "pool/bite/05-drip.ogg",
+          "label": "清亮滴水",
+          "tag": "水",
+          "dur": 0.12,
+          "size": 4872,
+          "pack": "InMotionAudio - Cave Design"
+        },
+        {
+          "file": "pool/bite/06-bottle.ogg",
+          "label": "瓶塞轻启",
+          "tag": "材质",
+          "dur": 1.5,
+          "size": 17791,
+          "pack": "Mechanical Wave - Glass"
+        },
+        {
+          "file": "pool/bite/07-pluck.ogg",
+          "label": "轻快拨响",
+          "tag": "短促",
+          "dur": 1.5,
+          "size": 18149,
+          "pack": "Cinematic Sound Design - Hybrid Game & UI Elements"
+        }
+      ]
+    },
+    {
+      "id": "reel",
+      "label": "收线",
+      "group": "钓鱼",
+      "desc": "摇轮时齿轮拨动的咔哒声。",
+      "picks": [
+        {
+          "file": "pool/reel/01-gears.ogg",
+          "label": "齿轮连转",
+          "tag": "机械",
+          "dur": 0.3,
+          "size": 8156,
+          "pack": "BluezoneCorp - Tiny Gears - Small Mechanism"
+        },
+        {
+          "file": "pool/reel/02-tick.ogg",
+          "label": "钟摆滴答",
+          "tag": "机械",
+          "dur": 0.18,
+          "size": 5351,
+          "pack": "InMotionAudio - Sinister Textures 3"
+        },
+        {
+          "file": "pool/reel/03-complex.ogg",
+          "label": "细密机括",
+          "tag": "机械",
+          "dur": 0.25,
+          "size": 6746,
+          "pack": "BluezoneCorp - Tiny Gears - Small Mechanism"
+        },
+        {
+          "file": "pool/reel/04-sequence.ogg",
+          "label": "发条走动",
+          "tag": "机械",
+          "dur": 0.3,
+          "size": 8190,
+          "pack": "BluezoneCorp - Tiny Gears - Small Mechanism"
+        },
+        {
+          "file": "pool/reel/05-antique.ogg",
+          "label": "古董机芯",
+          "tag": "机械",
+          "dur": 0.28,
+          "size": 7313,
+          "pack": "Sonic Bat - Antique Clock Mechanism"
+        },
+        {
+          "file": "pool/reel/06-handling.ogg",
+          "label": "发条把玩",
+          "tag": "机械",
+          "dur": 0.25,
+          "size": 6227,
+          "pack": "Sonic Bat - Antique Clock Mechanism"
+        },
+        {
+          "file": "pool/reel/07-tiny.ogg",
+          "label": "微型齿轮",
+          "tag": "机械",
+          "dur": 0.28,
+          "size": 7600,
+          "pack": "Justsoundeffects - Steampunk Gadgets"
+        }
+      ]
+    },
+    {
+      "id": "voyage",
+      "label": "远航",
+      "group": "钓鱼",
+      "desc": "出海/切换海域时的水声过渡。",
+      "picks": [
+        {
+          "file": "pool/voyage/01-flow.ogg",
+          "label": "暗流涌动",
+          "tag": "水",
+          "dur": 4.0,
+          "size": 67465,
+          "pack": "InMotionAudio - Submerge"
+        },
+        {
+          "file": "pool/voyage/02-cave.ogg",
+          "label": "洞窟水道",
+          "tag": "水",
+          "dur": 4.0,
+          "size": 61082,
+          "pack": "InMotionAudio - Cave Design"
+        },
+        {
+          "file": "pool/voyage/03-brook.ogg",
+          "label": "山溪潺潺",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 41242,
+          "pack": "Bolt - Immersive Creek -  Ambisonic Recordings of Undisturbed Creeks in Vermont"
+        },
+        {
+          "file": "pool/voyage/04-alpine.ogg",
+          "label": "高山急流",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 43508,
+          "pack": "Nick McMahan - Cascadia Flowing Water"
+        },
+        {
+          "file": "pool/voyage/05-stream.ogg",
+          "label": "林间细流",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 40643,
+          "pack": "Nick McMahan - Cascadia Flowing Water"
+        },
+        {
+          "file": "pool/voyage/06-under.ogg",
+          "label": "深海远行",
+          "tag": "水",
+          "dur": 4.0,
+          "size": 24965,
+          "pack": "BluezoneCorp - Designed Water"
+        },
+        {
+          "file": "pool/voyage/07-sail.ogg",
+          "label": "长风过帆",
+          "tag": "自然",
+          "dur": 1.02,
+          "size": 13193,
+          "pack": "344 Audio - Elemental Palette Designed Vol. 1"
+        }
+      ]
+    },
+    {
+      "id": "line-strain",
+      "label": "鱼线绷紧",
+      "group": "钓鱼",
+      "desc": "张力进入危险区时的一声紧绷。太紧会断，太松会脱。",
+      "picks": [
+        {
+          "file": "pool/line-strain/01-contact-cable.ogg",
+          "label": "钢缆受力",
+          "tag": "机械",
+          "dur": 1.2,
+          "size": 12556,
+          "pack": "Rogue Waves - Yacht & Marina"
+        },
+        {
+          "file": "pool/line-strain/02-cable-tension.ogg",
+          "label": "线缆拉紧",
+          "tag": "机械",
+          "dur": 1.2,
+          "size": 18449,
+          "pack": "InMotionAudio - Broken Hair Dryer"
+        },
+        {
+          "file": "pool/line-strain/03-spring-wire.ogg",
+          "label": "钢丝绷紧",
+          "tag": "金属",
+          "dur": 1.2,
+          "size": 13564,
+          "pack": "Epic Stock Media - HD Lock And Mechanism Sound Design Kit"
+        },
+        {
+          "file": "pool/line-strain/04-wood-fric.ogg",
+          "label": "木纤维摩擦",
+          "tag": "木质",
+          "dur": 0.56,
+          "size": 9015,
+          "pack": "InMotionAudio - Wood"
+        }
+      ]
+    },
+    {
+      "id": "rod-creak",
+      "label": "竿身受力",
+      "group": "钓鱼",
+      "desc": "抛竿蓄力时竿身弯下去的木/竹纤维声。",
+      "picks": [
+        {
+          "file": "pool/rod-creak/01-wood-move.ogg",
+          "label": "竿身弯折",
+          "tag": "木质",
+          "dur": 1.5,
+          "size": 18506,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/rod-creak/02-wood-fric.ogg",
+          "label": "竹木摩擦",
+          "tag": "木质",
+          "dur": 0.56,
+          "size": 9015,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/rod-creak/03-spring-wire.ogg",
+          "label": "纤维绷紧",
+          "tag": "金属",
+          "dur": 1.5,
+          "size": 16419,
+          "pack": "Epic Stock Media - HD Lock And Mechanism Sound Design Kit"
+        },
+        {
+          "file": "pool/rod-creak/04-cable.ogg",
+          "label": "线缆吃力",
+          "tag": "机械",
+          "dur": 1.5,
+          "size": 22675,
+          "pack": "InMotionAudio - Broken Hair Dryer"
+        }
+      ]
+    },
+    {
+      "id": "splash-small",
+      "label": "轻水花",
+      "group": "钓鱼",
+      "desc": "浮标沉下去、小鱼翻身的轻水声（区别于抛竿的大水花）。",
+      "picks": [
+        {
+          "file": "pool/splash-small/01-blue-impact.ogg",
+          "label": "水面轻击",
+          "tag": "水",
+          "dur": 1.5,
+          "size": 17341,
+          "pack": "BluezoneCorp - Designed Water"
+        },
+        {
+          "file": "pool/splash-small/02-bubble-hit.ogg",
+          "label": "气泡破裂",
+          "tag": "水",
+          "dur": 1.14,
+          "size": 14472,
+          "pack": "344 Audio - Elemental Palette Designed Vol. 1"
+        },
+        {
+          "file": "pool/splash-small/03-rock-move.ogg",
+          "label": "水石摩挲",
+          "tag": "水",
+          "dur": 1.5,
+          "size": 16891,
+          "pack": "InMotionAudio - Submerge"
+        },
+        {
+          "file": "pool/splash-small/04-pop.ogg",
+          "label": "卡通水泡",
+          "tag": "卡通",
+          "dur": 0.87,
+          "size": 7186,
+          "pack": "Cinematic Sound Design - Cartoon & Animation Vol 2"
+        }
+      ]
+    },
+    {
+      "id": "splash-big",
+      "label": "大鱼出水",
+      "group": "钓鱼",
+      "desc": "提竿把鱼拽出水面 / 鱼脱钩挣回水里的重水花。",
+      "picks": [
+        {
+          "file": "pool/splash-big/01-deep-impact.ogg",
+          "label": "深水闷响",
+          "tag": "水",
+          "dur": 2.15,
+          "size": 23901,
+          "pack": "Epic Stock Media - Elemental Mutation Whooshes and Impacts"
+        },
+        {
+          "file": "pool/splash-big/02-impact20.ogg",
+          "label": "水花迸溅",
+          "tag": "水",
+          "dur": 1.82,
+          "size": 27388,
+          "pack": "InMotionAudio - Submerge"
+        },
+        {
+          "file": "pool/splash-big/03-underwater.ogg",
+          "label": "水下翻涌",
+          "tag": "水",
+          "dur": 2.5,
+          "size": 12606,
+          "pack": "BluezoneCorp - Designed Water"
+        },
+        {
+          "file": "pool/splash-big/04-drain.ogg",
+          "label": "排水哗啦",
+          "tag": "水",
+          "dur": 2.5,
+          "size": 28536,
+          "pack": "InMotionAudio - Submerge"
+        }
+      ]
+    },
+    {
+      "id": "catch-thump",
+      "label": "入篓",
+      "group": "钓鱼",
+      "desc": "鱼落进鱼篓/木箱的那一下，配 catch-bell 用。",
+      "picks": [
+        {
+          "file": "pool/catch-thump/01-tacklebox.ogg",
+          "label": "渔具箱摇动",
+          "tag": "木质",
+          "dur": 1.2,
+          "size": 16161,
+          "pack": "Sonic Bat - Videogame Foley Essentials Vol. II"
+        },
+        {
+          "file": "pool/catch-thump/02-wood-drop.ogg",
+          "label": "木块落底",
+          "tag": "木质",
+          "dur": 0.6,
+          "size": 9073,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/catch-thump/03-wood-snap.ogg",
+          "label": "木头脆断",
+          "tag": "木质",
+          "dur": 0.8,
+          "size": 12309,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/catch-thump/04-latch.ogg",
+          "label": "铁扣合上",
+          "tag": "金属",
+          "dur": 1.0,
+          "size": 11732,
+          "pack": "UberDuo - The Wood Stove Audio Prop Set"
+        }
+      ]
+    },
+    {
+      "id": "boat-creak",
+      "label": "小船靠岸",
+      "group": "钓鱼",
+      "desc": "流浪商人的小船驶近码头：船板、缆绳、拍浪。带空间定位播放。",
+      "picks": [
+        {
+          "file": "pool/boat-creak/01-rope-metal.ogg",
+          "label": "缆绳过环",
+          "tag": "船",
+          "dur": 6.0,
+          "size": 57609,
+          "pack": "Rogue Waves - Yacht & Marina"
+        },
+        {
+          "file": "pool/boat-creak/02-marina.ogg",
+          "label": "码头氛围",
+          "tag": "船",
+          "dur": 8.0,
+          "size": 76267,
+          "pack": "Rogue Waves - Yacht & Marina"
+        },
+        {
+          "file": "pool/boat-creak/03-hull.ogg",
+          "label": "船体拍浪",
+          "tag": "船",
+          "dur": 4.0,
+          "size": 35020,
+          "pack": "Pole Position - The Stormbat Hull Interaction Library"
+        },
+        {
+          "file": "pool/boat-creak/04-carabiner.ogg",
+          "label": "锁扣轻碰",
+          "tag": "金属",
+          "dur": 1.2,
+          "size": 11887,
+          "pack": "344 Audio - Climbing Gear Foley Vol. 1"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "label": "收录图鉴",
+      "group": "收录",
+      "desc": "鱼进图鉴的清脆提示。",
+      "picks": [
+        {
+          "file": "pool/collect/01-kalimba.ogg",
+          "label": "卡林巴上行",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/collect/02-xylophone.ogg",
+          "label": "木琴欢响",
+          "tag": "音乐",
+          "dur": 2.0,
+          "size": 19031,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/collect/03-arp.ogg",
+          "label": "星光琶音",
+          "tag": "音乐",
+          "dur": 1.81,
+          "size": 14776,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/collect/04-plucks.ogg",
+          "label": "开心拨弦",
+          "tag": "音乐",
+          "dur": 0.85,
+          "size": 9911,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/collect/05-bell.ogg",
+          "label": "魔法铃音",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35564,
+          "pack": "344 Audio - Christmas Vol. 1"
+        },
+        {
+          "file": "pool/collect/06-entry.ogg",
+          "label": "欢快入场",
+          "tag": "音乐",
+          "dur": 0.88,
+          "size": 6539,
+          "pack": "Cinematic Sound Design - Hybrid Game & UI Elements"
+        },
+        {
+          "file": "pool/collect/07-glassy.ogg",
+          "label": "玻璃清响",
+          "tag": "短促",
+          "dur": 0.44,
+          "size": 7112,
+          "pack": "Cinematic Sound Design - Interface & Infographics"
+        }
+      ]
+    },
+    {
+      "id": "coin",
+      "label": "贝壳到手",
+      "group": "收录",
+      "desc": "获得贝壳/货币的叮当声。",
+      "picks": [
+        {
+          "file": "pool/coin/01-bell.ogg",
+          "label": "金属铃铛",
+          "tag": "金属",
+          "dur": 2.0,
+          "size": 17397,
+          "pack": "Mechanical Wave - Sound Effects Collection"
+        },
+        {
+          "file": "pool/coin/02-ting.ogg",
+          "label": "硬币叮当",
+          "tag": "金属",
+          "dur": 1.04,
+          "size": 13630,
+          "pack": "Cinematic Sound Design - UI Interaction Elements"
+        },
+        {
+          "file": "pool/coin/03-scratch.ogg",
+          "label": "硬币刮擦",
+          "tag": "材质",
+          "dur": 1.14,
+          "size": 12841,
+          "pack": "InMotionAudio - Scratch Card"
+        },
+        {
+          "file": "pool/coin/04-musicbox.ogg",
+          "label": "八音盒 A",
+          "tag": "音乐",
+          "dur": 2.79,
+          "size": 25387,
+          "pack": "Sonic Bat - Music Boxes"
+        },
+        {
+          "file": "pool/coin/05-kalimba.ogg",
+          "label": "卡林巴轻响",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/coin/06-xylophone.ogg",
+          "label": "木琴叮咚",
+          "tag": "音乐",
+          "dur": 2.0,
+          "size": 19031,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        }
+      ]
+    },
+    {
+      "id": "unlock",
+      "label": "解锁新物",
+      "group": "收录",
+      "desc": "解锁配方、风物、图鉴条目时的上扬音。",
+      "picks": [
+        {
+          "file": "pool/unlock/01-magic.ogg",
+          "label": "魔法光耀",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 30451,
+          "pack": "Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms"
+        },
+        {
+          "file": "pool/unlock/02-astonish.ogg",
+          "label": "惊奇能量",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 39223,
+          "pack": "Alexander Kopeikin - Emotion and Magic"
+        },
+        {
+          "file": "pool/unlock/03-creation.ogg",
+          "label": "魔法创生",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35831,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/unlock/04-powerup.ogg",
+          "label": "短促强化",
+          "tag": "电子",
+          "dur": 2.0,
+          "size": 28823,
+          "pack": "Doex Studio - 90s Anime SFX Pack"
+        },
+        {
+          "file": "pool/unlock/05-arp.ogg",
+          "label": "星光琶音",
+          "tag": "音乐",
+          "dur": 1.81,
+          "size": 14776,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/unlock/06-entry.ogg",
+          "label": "欢快揭晓",
+          "tag": "音乐",
+          "dur": 0.88,
+          "size": 6539,
+          "pack": "Cinematic Sound Design - Hybrid Game & UI Elements"
+        },
+        {
+          "file": "pool/unlock/07-sparkle.ogg",
+          "label": "铃光闪烁",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35564,
+          "pack": "344 Audio - Christmas Vol. 1"
+        }
+      ]
+    },
+    {
+      "id": "click",
+      "label": "通用点击",
+      "group": "界面",
+      "desc": "所有按钮的默认点击音。",
+      "picks": [
+        {
+          "file": "pool/click/01-cursor.ogg",
+          "label": "光标轻点",
+          "tag": "短促",
+          "dur": 0.08,
+          "size": 4058,
+          "pack": "Rogue Waves - Kawaii UI"
+        },
+        {
+          "file": "pool/click/02-select.ogg",
+          "label": "中键选择",
+          "tag": "短促",
+          "dur": 0.35,
+          "size": 9168,
+          "pack": "Rescopic Sound - User Interaction"
+        },
+        {
+          "file": "pool/click/03-activation.ogg",
+          "label": "激活点击",
+          "tag": "电子",
+          "dur": 0.15,
+          "size": 4885,
+          "pack": "CB Sounddesign - Activation 2"
+        },
+        {
+          "file": "pool/click/04-vintage.ogg",
+          "label": "复古按键",
+          "tag": "材质",
+          "dur": 0.17,
+          "size": 5653,
+          "pack": "Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games"
+        },
+        {
+          "file": "pool/click/05-plastic.ogg",
+          "label": "塑料轻点",
+          "tag": "材质",
+          "dur": 0.3,
+          "size": 5795,
+          "pack": "Doex Studio - Qantum UI"
+        },
+        {
+          "file": "pool/click/06-retro.ogg",
+          "label": "未来按键",
+          "tag": "电子",
+          "dur": 0.31,
+          "size": 6862,
+          "pack": "BluezoneCorp - Retrofuturistic Computer"
+        },
+        {
+          "file": "pool/click/07-snap.ogg",
+          "label": "清脆响指",
+          "tag": "短促",
+          "dur": 0.35,
+          "size": 6811,
+          "pack": "Cinematic Sound Design - Interface & Infographics"
+        }
+      ]
+    },
+    {
+      "id": "page",
+      "label": "手帐翻页",
+      "group": "界面",
+      "desc": "翻动手帐/书页的纸声。",
+      "picks": [
+        {
+          "file": "pool/page/01-book.ogg",
+          "label": "厚书翻页",
+          "tag": "纸",
+          "dur": 2.0,
+          "size": 24989,
+          "pack": "Mechanical Wave - Cardboard and Paper"
+        },
+        {
+          "file": "pool/page/02-antique.ogg",
+          "label": "古董书页",
+          "tag": "纸",
+          "dur": 2.0,
+          "size": 23880,
+          "pack": "344 Audio - Antique Books"
+        },
+        {
+          "file": "pool/page/03-flick.ogg",
+          "label": "快速翻册",
+          "tag": "纸",
+          "dur": 1.65,
+          "size": 19947,
+          "pack": "344 Audio - Antique Books"
+        },
+        {
+          "file": "pool/page/04-a4.ogg",
+          "label": "纸张翻尾",
+          "tag": "纸",
+          "dur": 1.25,
+          "size": 15758,
+          "pack": "Cinematic Sound Design - Paper Foley"
+        },
+        {
+          "file": "pool/page/05-newspaper.ogg",
+          "label": "报纸窸窣",
+          "tag": "纸",
+          "dur": 2.0,
+          "size": 25538,
+          "pack": "Cinematic Sound Design - Paper Foley"
+        },
+        {
+          "file": "pool/page/06-cards.ogg",
+          "label": "卡牌翻洗",
+          "tag": "纸",
+          "dur": 0.17,
+          "size": 5659,
+          "pack": "Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games"
+        },
+        {
+          "file": "pool/page/07-typewriter.ogg",
+          "label": "打字纸动",
+          "tag": "纸",
+          "dur": 2.0,
+          "size": 25640,
+          "pack": "344 Audio - Antique Typewriter"
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "label": "打开面板",
+      "group": "界面",
+      "desc": "手帐、衣橱、设置等面板展开。",
+      "picks": [
+        {
+          "file": "pool/open/01-cloth.ogg",
+          "label": "衣物摩挲",
+          "tag": "布料",
+          "dur": 2.0,
+          "size": 22372,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/open/02-cloth2.ogg",
+          "label": "布料展开",
+          "tag": "布料",
+          "dur": 1.49,
+          "size": 16799,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/open/03-tarot.ogg",
+          "label": "塔罗洗牌",
+          "tag": "纸",
+          "dur": 2.0,
+          "size": 23053,
+          "pack": "Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms"
+        },
+        {
+          "file": "pool/open/04-luggage.ogg",
+          "label": "行李翻找",
+          "tag": "材质",
+          "dur": 2.0,
+          "size": 23276,
+          "pack": "344 Audio - Antique Luggage"
+        },
+        {
+          "file": "pool/open/05-suitcase.ogg",
+          "label": "手提箱开合",
+          "tag": "材质",
+          "dur": 2.0,
+          "size": 23376,
+          "pack": "344 Audio - Antique Luggage"
+        },
+        {
+          "file": "pool/open/06-window.ogg",
+          "label": "窗口轻推",
+          "tag": "电子",
+          "dur": 1.03,
+          "size": 15100,
+          "pack": "Rescopic Sound - User Interaction"
+        },
+        {
+          "file": "pool/open/07-box.ogg",
+          "label": "纸箱滑动",
+          "tag": "纸",
+          "dur": 1.5,
+          "size": 17530,
+          "pack": "Mechanical Wave - Cardboard and Paper"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "label": "关闭面板",
+      "group": "界面",
+      "desc": "面板收起时的短促声。",
+      "picks": [
+        {
+          "file": "pool/close/01-cloth.ogg",
+          "label": "布料收拢",
+          "tag": "布料",
+          "dur": 1.49,
+          "size": 16799,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/close/02-cards.ogg",
+          "label": "卡牌收束",
+          "tag": "纸",
+          "dur": 0.17,
+          "size": 5659,
+          "pack": "Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games"
+        },
+        {
+          "file": "pool/close/03-a4.ogg",
+          "label": "纸页轻合",
+          "tag": "纸",
+          "dur": 1.25,
+          "size": 15758,
+          "pack": "Cinematic Sound Design - Paper Foley"
+        },
+        {
+          "file": "pool/close/04-box.ogg",
+          "label": "纸箱推合",
+          "tag": "纸",
+          "dur": 1.5,
+          "size": 17530,
+          "pack": "Mechanical Wave - Cardboard and Paper"
+        },
+        {
+          "file": "pool/close/05-metal.ogg",
+          "label": "金属滑窗",
+          "tag": "电子",
+          "dur": 0.92,
+          "size": 12621,
+          "pack": "Doex Studio - Qantum UI"
+        },
+        {
+          "file": "pool/close/06-case.ogg",
+          "label": "箱扣合上",
+          "tag": "材质",
+          "dur": 1.5,
+          "size": 18691,
+          "pack": "344 Audio - Antique Luggage"
+        },
+        {
+          "file": "pool/close/07-lever.ogg",
+          "label": "小机关",
+          "tag": "机械",
+          "dur": 0.38,
+          "size": 7181,
+          "pack": "BluezoneCorp - Industrial Lever Switch"
+        }
+      ]
+    },
+    {
+      "id": "deny",
+      "label": "不可用",
+      "group": "界面",
+      "desc": "条件不满足时的下沉提示音。",
+      "picks": [
+        {
+          "file": "pool/deny/01-muted.ogg",
+          "label": "低沉拒绝",
+          "tag": "短促",
+          "dur": 0.8,
+          "size": 8502,
+          "pack": "Cinematic Sound Design - UI Interaction Elements"
+        },
+        {
+          "file": "pool/deny/02-ping.ogg",
+          "label": "科幻下坠",
+          "tag": "电子",
+          "dur": 0.75,
+          "size": 8613,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/deny/03-arpdown.ogg",
+          "label": "琶音下坠",
+          "tag": "音乐",
+          "dur": 1.17,
+          "size": 12900,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/deny/04-alert.ogg",
+          "label": "未来警报",
+          "tag": "电子",
+          "dur": 1.5,
+          "size": 23640,
+          "pack": "BluezoneCorp - Futuristic User Interface"
+        },
+        {
+          "file": "pool/deny/05-alien.ogg",
+          "label": "外星转场",
+          "tag": "电子",
+          "dur": 1.13,
+          "size": 13913,
+          "pack": "BluezoneCorp - Alien Interface"
+        },
+        {
+          "file": "pool/deny/06-noisy.ogg",
+          "label": "嘈杂落空",
+          "tag": "电子",
+          "dur": 0.77,
+          "size": 10559,
+          "pack": "Doex Studio - Qantum UI"
+        },
+        {
+          "file": "pool/deny/07-bassdown.ogg",
+          "label": "卡通下沉",
+          "tag": "卡通",
+          "dur": 1.5,
+          "size": 15522,
+          "pack": "Cinematic Sound Design - Cartoon & Animation Vol 2"
+        }
+      ]
+    },
+    {
+      "id": "chime",
+      "label": "提示音",
+      "group": "界面",
+      "desc": "通用提示、奖励弹窗的铃音。",
+      "picks": [
+        {
+          "file": "pool/chime/01-shimmer.ogg",
+          "label": "微光铃片",
+          "tag": "金属",
+          "dur": 3.0,
+          "size": 41578,
+          "pack": "Epic Stock Media - Strange Game Ambient Loops 3"
+        },
+        {
+          "file": "pool/chime/02-churchfar.ogg",
+          "label": "远处教堂钟",
+          "tag": "钟声",
+          "dur": 3.0,
+          "size": 30738,
+          "pack": "Ivo Vicic - Church Bells"
+        },
+        {
+          "file": "pool/chime/03-churchnear.ogg",
+          "label": "近处教堂钟",
+          "tag": "钟声",
+          "dur": 3.0,
+          "size": 27823,
+          "pack": "Ivo Vicic - Church Bells"
+        },
+        {
+          "file": "pool/chime/04-musicbox.ogg",
+          "label": "八音盒 B",
+          "tag": "音乐",
+          "dur": 2.62,
+          "size": 24633,
+          "pack": "Sonic Bat - Music Boxes"
+        },
+        {
+          "file": "pool/chime/05-arp.ogg",
+          "label": "星光琶音",
+          "tag": "音乐",
+          "dur": 1.81,
+          "size": 14776,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/chime/06-kalimba.ogg",
+          "label": "卡林巴铃",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/chime/07-glassy.ogg",
+          "label": "玻璃清脆",
+          "tag": "短促",
+          "dur": 0.44,
+          "size": 7112,
+          "pack": "Cinematic Sound Design - Interface & Infographics"
+        }
+      ]
+    },
+    {
+      "id": "quest",
+      "label": "委托完成",
+      "group": "界面",
+      "desc": "完成委托/目标的成就音。",
+      "picks": [
+        {
+          "file": "pool/quest/01-creation.ogg",
+          "label": "魔法创生",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35831,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/quest/02-astral.ogg",
+          "label": "星界能量",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 31105,
+          "pack": "Alexander Kopeikin - Emotion and Magic"
+        },
+        {
+          "file": "pool/quest/03-powerup.ogg",
+          "label": "短促强化",
+          "tag": "电子",
+          "dur": 2.0,
+          "size": 28823,
+          "pack": "Doex Studio - 90s Anime SFX Pack"
+        },
+        {
+          "file": "pool/quest/04-plucks.ogg",
+          "label": "欢快拨弦",
+          "tag": "音乐",
+          "dur": 0.85,
+          "size": 9911,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/quest/05-xylophone.ogg",
+          "label": "木琴欢庆",
+          "tag": "音乐",
+          "dur": 2.0,
+          "size": 19031,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/quest/06-kalimba.ogg",
+          "label": "卡林巴上行",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/quest/07-entry.ogg",
+          "label": "过关揭晓",
+          "tag": "音乐",
+          "dur": 0.88,
+          "size": 6539,
+          "pack": "Cinematic Sound Design - Hybrid Game & UI Elements"
+        }
+      ]
+    },
+    {
+      "id": "specialty-bell",
+      "label": "风铃花穗",
+      "group": "风物",
+      "desc": "单峰岛花影长椅的风铃，摇响时一串细碎的玻璃铃。",
+      "picks": [
+        {
+          "file": "pool/specialty-bell/01-windchimes.ogg",
+          "label": "风中铃串",
+          "tag": "风铃",
+          "dur": 2.45,
+          "size": 22999,
+          "pack": "Mixkit - win"
+        },
+        {
+          "file": "pool/specialty-bell/02-crystal.ogg",
+          "label": "水晶铃",
+          "tag": "铃",
+          "dur": 1.94,
+          "size": 19083,
+          "pack": "Mixkit - chimes"
+        },
+        {
+          "file": "pool/specialty-bell/03-relaxing.ogg",
+          "label": "舒缓钟铃",
+          "tag": "铃",
+          "dur": 1.65,
+          "size": 19508,
+          "pack": "Mixkit - chimes"
+        },
+        {
+          "file": "pool/specialty-bell/04-antiquewood.ogg",
+          "label": "木质老铃",
+          "tag": "木质",
+          "dur": 3.0,
+          "size": 36163,
+          "pack": "Mixkit - clock"
+        },
+        {
+          "file": "pool/specialty-bell/05-shimmer.ogg",
+          "label": "微光铃片",
+          "tag": "金属",
+          "dur": 3.0,
+          "size": 41578,
+          "pack": "Epic Stock Media - Strange Game Ambient Loops 3"
+        },
+        {
+          "file": "pool/specialty-bell/06-kalimba.ogg",
+          "label": "卡林巴铃",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        }
+      ]
+    },
+    {
+      "id": "specialty-telescope",
+      "label": "峡湾望远镜",
+      "group": "风物",
+      "desc": "双峰岛风崖望远镜：黄铜镜筒转动的金属摩擦与远处的风。",
+      "picks": [
+        {
+          "file": "pool/specialty-telescope/01-brass-sing.ogg",
+          "label": "黄铜吟唱",
+          "tag": "金属",
+          "dur": 3.0,
+          "size": 37770,
+          "pack": "Mixkit - brass"
+        },
+        {
+          "file": "pool/specialty-telescope/02-brass-stick.ogg",
+          "label": "黄铜棒",
+          "tag": "金属",
+          "dur": 2.5,
+          "size": 32311,
+          "pack": "Mixkit - brass"
+        },
+        {
+          "file": "pool/specialty-telescope/03-metalpot1.ogg",
+          "label": "铜器轻敲",
+          "tag": "金属",
+          "dur": 1.0,
+          "size": 13348,
+          "pack": "Kenney - RPG Audio"
+        },
+        {
+          "file": "pool/specialty-telescope/04-metalpot2.ogg",
+          "label": "铜器回响",
+          "tag": "金属",
+          "dur": 0.84,
+          "size": 10845,
+          "pack": "Kenney - RPG Audio"
+        },
+        {
+          "file": "pool/specialty-telescope/05-metalpot3.ogg",
+          "label": "铜器沉响",
+          "tag": "金属",
+          "dur": 0.91,
+          "size": 12309,
+          "pack": "Kenney - RPG Audio"
+        },
+        {
+          "file": "pool/specialty-telescope/06-wind-oak.ogg",
+          "label": "崖上风",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 39888,
+          "pack": "Pole Position - Wind In Trees"
+        }
+      ]
+    },
+    {
+      "id": "specialty-tide",
+      "label": "潮汐风铃",
+      "group": "风物",
+      "desc": "环礁内湾栈台的潮汐风铃，配一把被浪磨圆的珊瑚砂。",
+      "picks": [
+        {
+          "file": "pool/specialty-tide/01-crystal.ogg",
+          "label": "水晶潮音",
+          "tag": "铃",
+          "dur": 1.94,
+          "size": 19083,
+          "pack": "Mixkit - chimes"
+        },
+        {
+          "file": "pool/specialty-tide/02-shells.ogg",
+          "label": "贝壳相碰",
+          "tag": "贝壳",
+          "dur": 3.0,
+          "size": 31936,
+          "pack": "BBC - Nature"
+        },
+        {
+          "file": "pool/specialty-tide/03-pebbles.ogg",
+          "label": "卵石轻碰",
+          "tag": "石",
+          "dur": 0.18,
+          "size": 5413,
+          "pack": "Mixkit - click"
+        },
+        {
+          "file": "pool/specialty-tide/04-windchimes.ogg",
+          "label": "风中铃串",
+          "tag": "风铃",
+          "dur": 2.45,
+          "size": 22999,
+          "pack": "Mixkit - win"
+        },
+        {
+          "file": "pool/specialty-tide/05-relaxing.ogg",
+          "label": "舒缓钟铃",
+          "tag": "铃",
+          "dur": 1.65,
+          "size": 19508,
+          "pack": "Mixkit - chimes"
+        }
+      ]
+    },
+    {
+      "id": "specialty-stone",
+      "label": "风鸣石",
+      "group": "风物",
+      "desc": "台地石座的风鸣器，敲下去是空心石腔的低鸣。",
+      "picks": [
+        {
+          "file": "pool/specialty-stone/01-rockdrop.ogg",
+          "label": "石块落地",
+          "tag": "石",
+          "dur": 0.6,
+          "size": 8900,
+          "pack": "GDC2024 - Sonic Bat - Videogame Foley Essentials Vol. II"
+        },
+        {
+          "file": "pool/specialty-stone/02-stonesfall.ogg",
+          "label": "碎石滚落",
+          "tag": "石",
+          "dur": 2.0,
+          "size": 25811,
+          "pack": "Mixkit - falling"
+        },
+        {
+          "file": "pool/specialty-stone/03-pebbles.ogg",
+          "label": "卵石轻碰",
+          "tag": "石",
+          "dur": 0.18,
+          "size": 5413,
+          "pack": "Mixkit - click"
+        },
+        {
+          "file": "pool/specialty-stone/04-antiquewood.ogg",
+          "label": "石腔低鸣",
+          "tag": "木质",
+          "dur": 2.0,
+          "size": 25658,
+          "pack": "Mixkit - clock"
+        },
+        {
+          "file": "pool/specialty-stone/05-metalpot3.ogg",
+          "label": "空腔共鸣",
+          "tag": "金属",
+          "dur": 0.91,
+          "size": 12309,
+          "pack": "Kenney - RPG Audio"
+        }
+      ]
+    },
+    {
+      "id": "bird",
+      "label": "鸟鸣",
+      "group": "世界",
+      "desc": "岛上远处的鸟叫。",
+      "picks": [
+        {
+          "file": "pool/bird/01-coaltit.ogg",
+          "label": "煤山雀",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 37398,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/bird/02-woodpecker.ogg",
+          "label": "绿啄木鸟",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 16097,
+          "pack": "Justsoundeffects - Forests of Norway"
+        },
+        {
+          "file": "pool/bird/03-kite.ogg",
+          "label": "红鸢长鸣",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21340,
+          "pack": "Jake Fielding - Red Kite"
+        },
+        {
+          "file": "pool/bird/04-chicks.ogg",
+          "label": "雏鸟叽喳",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 23152,
+          "pack": "Mechanical Wave - Farm Animals"
+        },
+        {
+          "file": "pool/bird/05-flutes.ogg",
+          "label": "鸟鸣笛音",
+          "tag": "卡通",
+          "dur": 1.02,
+          "size": 13207,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/bird/06-forest.ogg",
+          "label": "林间晨鸣",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 39182,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/bird/07-afternoon.ogg",
+          "label": "午后鸟语",
+          "tag": "自然",
+          "dur": 4.0,
+          "size": 40056,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        }
+      ]
+    },
+    {
+      "id": "chirp",
+      "label": "小鸟短鸣",
+      "group": "世界",
+      "desc": "近处小鸟的一声短叫。",
+      "picks": [
+        {
+          "file": "pool/chirp/01-coaltit.ogg",
+          "label": "山雀短啼",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21138,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/chirp/02-chicks.ogg",
+          "label": "雏鸟啁啾",
+          "tag": "自然",
+          "dur": 1.5,
+          "size": 18049,
+          "pack": "Mechanical Wave - Farm Animals"
+        },
+        {
+          "file": "pool/chirp/03-flutes.ogg",
+          "label": "鸟笛",
+          "tag": "卡通",
+          "dur": 1.02,
+          "size": 13207,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/chirp/04-kite.ogg",
+          "label": "鸢鸣",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21340,
+          "pack": "Jake Fielding - Red Kite"
+        },
+        {
+          "file": "pool/chirp/05-afternoon.ogg",
+          "label": "林间啁啾",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21727,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/chirp/06-forest.ogg",
+          "label": "黑鸟清啼",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21672,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/chirp/07-spain.ogg",
+          "label": "西班牙鸟语",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 23271,
+          "pack": "Jake Fielding - Sounds of Spain"
+        }
+      ]
+    },
+    {
+      "id": "animal",
+      "label": "小动物",
+      "group": "世界",
+      "desc": "常客小动物互动的叫声。",
+      "picks": [
+        {
+          "file": "pool/animal/01-dogbarks.ogg",
+          "label": "狗狗吠叫",
+          "tag": "动物",
+          "dur": 2.0,
+          "size": 18270,
+          "pack": "344 Audio - Dog Vocalisations Vol. 1"
+        },
+        {
+          "file": "pool/animal/02-cat.ogg",
+          "label": "猫咪喵呜",
+          "tag": "动物",
+          "dur": 2.0,
+          "size": 23938,
+          "pack": "Mechanical Wave - Sound Effects Collection"
+        },
+        {
+          "file": "pool/animal/03-frog.ogg",
+          "label": "青蛙鸣叫",
+          "tag": "动物",
+          "dur": 2.0,
+          "size": 9514,
+          "pack": "Epic Stock Media - Synthesized Nature Loops and Sounds"
+        },
+        {
+          "file": "pool/animal/04-horse.ogg",
+          "label": "马儿喷鼻",
+          "tag": "动物",
+          "dur": 0.95,
+          "size": 12891,
+          "pack": "UberDuo - Horsin’ Around – Character Play Set"
+        },
+        {
+          "file": "pool/animal/05-pig.ogg",
+          "label": "小猪哼唧",
+          "tag": "动物",
+          "dur": 1.55,
+          "size": 18135,
+          "pack": "Mechanical Wave - Farm Animals"
+        },
+        {
+          "file": "pool/animal/06-goose.ogg",
+          "label": "小鹅嘎嘎",
+          "tag": "动物",
+          "dur": 2.0,
+          "size": 24596,
+          "pack": "Mechanical Wave - Farm Animals"
+        },
+        {
+          "file": "pool/animal/07-chick.ogg",
+          "label": "雏鸟吱吱",
+          "tag": "动物",
+          "dur": 2.0,
+          "size": 23152,
+          "pack": "Mechanical Wave - Farm Animals"
+        }
+      ]
+    },
+    {
+      "id": "cloth",
+      "label": "换装",
+      "group": "世界",
+      "desc": "衣橱换装时的布料摩擦。",
+      "picks": [
+        {
+          "file": "pool/cloth/01-move24.ogg",
+          "label": "布料摩挲",
+          "tag": "布料",
+          "dur": 2.0,
+          "size": 22372,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/cloth/02-move29.ogg",
+          "label": "布料轻拂",
+          "tag": "布料",
+          "dur": 1.49,
+          "size": 16799,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/cloth/03-rip44.ogg",
+          "label": "棉布撕响",
+          "tag": "布料",
+          "dur": 0.85,
+          "size": 13532,
+          "pack": "InMotionAudio - Torn T-Shirt"
+        },
+        {
+          "file": "pool/cloth/04-rip74.ogg",
+          "label": "布料撕裂",
+          "tag": "布料",
+          "dur": 1.5,
+          "size": 20003,
+          "pack": "InMotionAudio - Torn T-Shirt"
+        },
+        {
+          "file": "pool/cloth/05-pats.ogg",
+          "label": "轻拍衣料",
+          "tag": "布料",
+          "dur": 0.51,
+          "size": 7531,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/cloth/06-mask.ogg",
+          "label": "织物摩擦",
+          "tag": "布料",
+          "dur": 2.0,
+          "size": 22162,
+          "pack": "InMotionAudio - Mask Foley"
+        },
+        {
+          "file": "pool/cloth/07-rip92.ogg",
+          "label": "抽丝声",
+          "tag": "布料",
+          "dur": 1.5,
+          "size": 20398,
+          "pack": "InMotionAudio - Torn T-Shirt"
+        }
+      ]
+    },
+    {
+      "id": "plant",
+      "label": "种植",
+      "group": "世界",
+      "desc": "埋种子、拨动叶片的窸窣声。",
+      "picks": [
+        {
+          "file": "pool/plant/01-stalk.ogg",
+          "label": "作物茎秆",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 22917,
+          "pack": "InMotionAudio - Sound of the Corn"
+        },
+        {
+          "file": "pool/plant/02-wind.ogg",
+          "label": "田间微风",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 31037,
+          "pack": "InMotionAudio - Sound of the Corn"
+        },
+        {
+          "file": "pool/plant/03-dryleaf.ogg",
+          "label": "干叶摩挲",
+          "tag": "自然",
+          "dur": 1.5,
+          "size": 21084,
+          "pack": "Epic Stock Media - HD Game Materials"
+        },
+        {
+          "file": "pool/plant/04-scrape.ogg",
+          "label": "松土摩擦",
+          "tag": "材质",
+          "dur": 0.56,
+          "size": 9015,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/plant/05-meadow.ogg",
+          "label": "草地虫鸣",
+          "tag": "自然",
+          "dur": 3.0,
+          "size": 29418,
+          "pack": "Just Sound Effects - Highlands of Norway"
+        },
+        {
+          "file": "pool/plant/06-rainleaves.ogg",
+          "label": "雨落叶间",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 23436,
+          "pack": "Justsoundeffects - Forests of Norway"
+        }
+      ]
+    },
+    {
+      "id": "sit",
+      "label": "坐下",
+      "group": "世界",
+      "desc": "坐上长椅的木质轻响。",
+      "picks": [
+        {
+          "file": "pool/sit/01-drops.ogg",
+          "label": "木面落座",
+          "tag": "木质",
+          "dur": 0.61,
+          "size": 9083,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/sit/02-creaky.ogg",
+          "label": "木椅吱呀",
+          "tag": "木质",
+          "dur": 2.0,
+          "size": 22857,
+          "pack": "344 Audio - Cinema Experience Vol. 1"
+        },
+        {
+          "file": "pool/sit/03-scrape.ogg",
+          "label": "木板挪动",
+          "tag": "木质",
+          "dur": 0.56,
+          "size": 9015,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/sit/04-box.ogg",
+          "label": "木盒轻响",
+          "tag": "木质",
+          "dur": 1.5,
+          "size": 19756,
+          "pack": "Sonic Bat - Videogame Foley Essentials Vol. II"
+        },
+        {
+          "file": "pool/sit/05-board.ogg",
+          "label": "木块碰撞",
+          "tag": "木质",
+          "dur": 1.11,
+          "size": 16936,
+          "pack": "Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games"
+        },
+        {
+          "file": "pool/sit/06-snap.ogg",
+          "label": "木头折断",
+          "tag": "木质",
+          "dur": 1.5,
+          "size": 18653,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/sit/07-stove.ogg",
+          "label": "柴炉轻响",
+          "tag": "木质",
+          "dur": 2.0,
+          "size": 23800,
+          "pack": "UberDuo - The Wood Stove Audio Prop Set"
+        }
+      ]
+    },
+    {
+      "id": "ad",
+      "label": "广告播报",
+      "group": "世界",
+      "desc": "广告卡片弹出时的电子提示。",
+      "picks": [
+        {
+          "file": "pool/ad/01-beep.ogg",
+          "label": "高科技蜂鸣",
+          "tag": "电子",
+          "dur": 0.08,
+          "size": 4345,
+          "pack": "BluezoneCorp - Futuristic User Interface"
+        },
+        {
+          "file": "pool/ad/02-thermo.ogg",
+          "label": "电子哔声",
+          "tag": "电子",
+          "dur": 1.0,
+          "size": 11675,
+          "pack": "InMotionAudio - Medical Thermometer"
+        },
+        {
+          "file": "pool/ad/03-retro.ogg",
+          "label": "复古按键",
+          "tag": "电子",
+          "dur": 0.31,
+          "size": 6862,
+          "pack": "BluezoneCorp - Retrofuturistic Computer"
+        },
+        {
+          "file": "pool/ad/04-radio.ogg",
+          "label": "收音机开关",
+          "tag": "材质",
+          "dur": 0.75,
+          "size": 9690,
+          "pack": "Sonic Bat - Vintage Radio"
+        },
+        {
+          "file": "pool/ad/05-pop.ogg",
+          "label": "清脆弹出",
+          "tag": "短促",
+          "dur": 0.64,
+          "size": 7966,
+          "pack": "Cinematic Sound Design - Interface & Infographics"
+        },
+        {
+          "file": "pool/ad/06-glitch.ogg",
+          "label": "数据故障",
+          "tag": "电子",
+          "dur": 1.5,
+          "size": 22601,
+          "pack": "BluezoneCorp - Futuristic User Interface"
+        },
+        {
+          "file": "pool/ad/07-wheel.ogg",
+          "label": "频道切换",
+          "tag": "机械",
+          "dur": 1.23,
+          "size": 13669,
+          "pack": "Sonic Bat - Vintage Radio"
+        }
+      ]
+    },
+    {
+      "id": "harvest",
+      "label": "收获",
+      "group": "补充",
+      "desc": "采摘作物/收获成熟植物。默认使用程序化音，选中后覆盖。",
+      "picks": [
+        {
+          "file": "pool/harvest/01-pluck.ogg",
+          "label": "轻快拔出",
+          "tag": "短促",
+          "dur": 2.0,
+          "size": 21238,
+          "pack": "Cinematic Sound Design - Hybrid Game & UI Elements"
+        },
+        {
+          "file": "pool/harvest/02-stalk.ogg",
+          "label": "茎秆折断",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 22917,
+          "pack": "InMotionAudio - Sound of the Corn"
+        },
+        {
+          "file": "pool/harvest/03-leaf.ogg",
+          "label": "叶片拨动",
+          "tag": "自然",
+          "dur": 2.0,
+          "size": 21909,
+          "pack": "InMotionAudio - Sound of the Corn"
+        },
+        {
+          "file": "pool/harvest/04-kalimba.ogg",
+          "label": "卡林巴收获",
+          "tag": "音乐",
+          "dur": 0.55,
+          "size": 7610,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/harvest/05-snap.ogg",
+          "label": "木头脆断",
+          "tag": "材质",
+          "dur": 1.5,
+          "size": 18653,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/harvest/06-ting.ogg",
+          "label": "清脆收获",
+          "tag": "金属",
+          "dur": 1.04,
+          "size": 13630,
+          "pack": "Cinematic Sound Design - UI Interaction Elements"
+        }
+      ]
+    },
+    {
+      "id": "bloom",
+      "label": "开花",
+      "group": "补充",
+      "desc": "苗圃花朵绽放。默认使用程序化音，选中后覆盖。",
+      "picks": [
+        {
+          "file": "pool/bloom/01-bells.ogg",
+          "label": "魔法铃开",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35564,
+          "pack": "344 Audio - Christmas Vol. 1"
+        },
+        {
+          "file": "pool/bloom/02-arp.ogg",
+          "label": "星光绽放",
+          "tag": "音乐",
+          "dur": 1.81,
+          "size": 14776,
+          "pack": "Cinematic Sound Design - User Interface"
+        },
+        {
+          "file": "pool/bloom/03-magic.ogg",
+          "label": "魔法光耀",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 30451,
+          "pack": "Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms"
+        },
+        {
+          "file": "pool/bloom/04-shimmer.ogg",
+          "label": "微光铃片",
+          "tag": "金属",
+          "dur": 3.0,
+          "size": 41578,
+          "pack": "Epic Stock Media - Strange Game Ambient Loops 3"
+        },
+        {
+          "file": "pool/bloom/05-creation.ogg",
+          "label": "魔法创生",
+          "tag": "魔法",
+          "dur": 3.0,
+          "size": 35831,
+          "pack": "CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX"
+        },
+        {
+          "file": "pool/bloom/06-plucks.ogg",
+          "label": "开心拨弦",
+          "tag": "音乐",
+          "dur": 0.85,
+          "size": 9911,
+          "pack": "Cinematic Sound Design - User Interface"
+        }
+      ]
+    },
+    {
+      "id": "stand",
+      "label": "起身",
+      "group": "补充",
+      "desc": "从长椅/地面起身。默认使用程序化音，选中后覆盖。",
+      "picks": [
+        {
+          "file": "pool/stand/01-cloth29.ogg",
+          "label": "衣料摩擦",
+          "tag": "布料",
+          "dur": 1.49,
+          "size": 16799,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/stand/02-cloth24.ogg",
+          "label": "起身衣响",
+          "tag": "布料",
+          "dur": 1.5,
+          "size": 17875,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/stand/03-wood.ogg",
+          "label": "木板轻响",
+          "tag": "木质",
+          "dur": 0.56,
+          "size": 9015,
+          "pack": "InMotionAudio - Wood"
+        },
+        {
+          "file": "pool/stand/04-pats.ogg",
+          "label": "衣料轻拍",
+          "tag": "布料",
+          "dur": 0.51,
+          "size": 7531,
+          "pack": "InMotionAudio - Foley T-Shirt"
+        },
+        {
+          "file": "pool/stand/05-mask.ogg",
+          "label": "织物摩挲",
+          "tag": "布料",
+          "dur": 1.5,
+          "size": 17645,
+          "pack": "InMotionAudio - Mask Foley"
+        },
+        {
+          "file": "pool/stand/06-creak.ogg",
+          "label": "座椅轻响",
+          "tag": "木质",
+          "dur": 1.5,
+          "size": 18307,
+          "pack": "344 Audio - Cinema Experience Vol. 1"
+        }
+      ]
+    },
+    {
+      "id": "escape",
+      "label": "脱钩",
+      "group": "补充",
+      "desc": "鱼脱钩/收线超时。默认使用程序化音，选中后覆盖。",
+      "picks": [
+        {
+          "file": "pool/escape/01-ping.ogg",
+          "label": "科幻下坠",
+          "tag": "电子",
+          "dur": 0.75,
+          "size": 8613,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/escape/02-arpdown.ogg",
+          "label": "琶音下坠",
+          "tag": "音乐",
+          "dur": 1.17,
+          "size": 12900,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/escape/03-deny.ogg",
+          "label": "低沉落空",
+          "tag": "短促",
+          "dur": 0.74,
+          "size": 10600,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/escape/04-bassdown.ogg",
+          "label": "卡通下沉",
+          "tag": "卡通",
+          "dur": 1.5,
+          "size": 15522,
+          "pack": "Cinematic Sound Design - Cartoon & Animation Vol 2"
+        },
+        {
+          "file": "pool/escape/05-chargedown.ogg",
+          "label": "能量消退",
+          "tag": "卡通",
+          "dur": 1.5,
+          "size": 11784,
+          "pack": "Rogue Waves - Anime Studio"
+        },
+        {
+          "file": "pool/escape/06-glitch.ogg",
+          "label": "信号断裂",
+          "tag": "电子",
+          "dur": 1.5,
+          "size": 22601,
+          "pack": "BluezoneCorp - Futuristic User Interface"
+        },
+        {
+          "file": "pool/escape/07-reverse.ogg",
+          "label": "反向玻璃",
+          "tag": "材质",
+          "dur": 1.5,
+          "size": 18551,
+          "pack": "Mechanical Wave - Glass"
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "label": "取消",
+      "group": "补充",
+      "desc": "取消蓄力/关闭操作。默认使用程序化音，选中后覆盖。",
+      "picks": [
+        {
+          "file": "pool/cancel/01-muted.ogg",
+          "label": "轻声取消",
+          "tag": "短促",
+          "dur": 0.8,
+          "size": 8502,
+          "pack": "Cinematic Sound Design - UI Interaction Elements"
+        },
+        {
+          "file": "pool/cancel/02-ping.ogg",
+          "label": "科幻下坠",
+          "tag": "电子",
+          "dur": 0.75,
+          "size": 8613,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/cancel/03-noisy.ogg",
+          "label": "嘈杂收场",
+          "tag": "电子",
+          "dur": 0.77,
+          "size": 10559,
+          "pack": "Doex Studio - Qantum UI"
+        },
+        {
+          "file": "pool/cancel/04-pop.ogg",
+          "label": "轻点取消",
+          "tag": "短促",
+          "dur": 0.22,
+          "size": 6077,
+          "pack": "Rogue Waves - Kawaii UI"
+        },
+        {
+          "file": "pool/cancel/05-arpdown.ogg",
+          "label": "琶音下坠",
+          "tag": "音乐",
+          "dur": 1.17,
+          "size": 12900,
+          "pack": "Cinematic Sound Design - System & UI Feedback Elements"
+        },
+        {
+          "file": "pool/cancel/06-snap.ogg",
+          "label": "清脆收势",
+          "tag": "短促",
+          "dur": 0.65,
+          "size": 7797,
+          "pack": "Cinematic Sound Design - Interface & Infographics"
+        }
+      ]
+    },
+    {
+      "id": "footstep-grass",
+      "label": "草脚步",
+      "group": "脚步",
+      "desc": "草地行走的脚步。候选为默认脚步的变调，以及从草地/落叶素材截取的轻响。",
+      "picks": [
+        {
+          "file": "pool/footstep-grass/01-soft.ogg",
+          "label": "低柔变体",
+          "tag": "变体",
+          "dur": 0.18,
+          "size": 5417,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-grass/02-bright.ogg",
+          "label": "清脆变体",
+          "tag": "变体",
+          "dur": 0.16,
+          "size": 5280,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-grass/03-leaves.ogg",
+          "label": "落叶窸窣",
+          "tag": "自然",
+          "dur": 0.22,
+          "size": 5928,
+          "pack": "InMotionAudio - Sound of the Corn"
+        },
+        {
+          "file": "pool/footstep-grass/04-branch.ogg",
+          "label": "干草轻响",
+          "tag": "自然",
+          "dur": 0.22,
+          "size": 6215,
+          "pack": "Sonic Bat - Videogame Foley Essentials Vol. II"
+        }
+      ]
+    },
+    {
+      "id": "footstep-sand",
+      "label": "沙脚步",
+      "group": "脚步",
+      "desc": "沙滩行走的脚步。候选为默认脚步的变调，以及沙地/砾石素材。",
+      "picks": [
+        {
+          "file": "pool/footstep-sand/01-soft.ogg",
+          "label": "低柔变体",
+          "tag": "变体",
+          "dur": 0.31,
+          "size": 6818,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-sand/02-bright.ogg",
+          "label": "清脆变体",
+          "tag": "变体",
+          "dur": 0.26,
+          "size": 6366,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-sand/03-gravel.ogg",
+          "label": "砾石踩踏",
+          "tag": "自然",
+          "dur": 0.25,
+          "size": 5871,
+          "pack": "SoundBits - Cars - Mad Mustang Mercury"
+        },
+        {
+          "file": "pool/footstep-sand/04-shore.ogg",
+          "label": "近岸沙响",
+          "tag": "自然",
+          "dur": 0.25,
+          "size": 5999,
+          "pack": "Nick McMahan - Cascadia Shore Waves"
+        }
+      ]
+    },
+    {
+      "id": "footstep-snow",
+      "label": "雪脚步",
+      "group": "脚步",
+      "desc": "雪地行走的脚步（冬季自动启用）。候选为默认脚步的变调与雪地素材。",
+      "picks": [
+        {
+          "file": "pool/footstep-snow/01-soft.ogg",
+          "label": "低柔变体",
+          "tag": "变体",
+          "dur": 0.37,
+          "size": 7233,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-snow/02-bright.ogg",
+          "label": "清脆变体",
+          "tag": "变体",
+          "dur": 0.32,
+          "size": 6795,
+          "pack": "游戏内默认脚步"
+        },
+        {
+          "file": "pool/footstep-snow/03-ski.ogg",
+          "label": "松雪踩踏",
+          "tag": "自然",
+          "dur": 0.25,
+          "size": 6276,
+          "pack": "Wavemotion - Ski Ride"
+        },
+        {
+          "file": "pool/footstep-snow/04-melt.ogg",
+          "label": "融雪溪声",
+          "tag": "自然",
+          "dur": 0.25,
+          "size": 6324,
+          "pack": "Bolt - Immersive Creek -  Ambisonic Recordings of Undisturbed Creeks in Vermont"
+        }
+      ]
+    },
+    {
+      "id": "amb-waves",
+      "label": "海浪环境",
+      "group": "环境",
+      "desc": "常驻的海面/湖面拍岸声，晴天明显，雨天压低。",
+      "picks": [
+        {
+          "file": "pool/amb-waves/01-rocks.ogg",
+          "label": "礁岸中浪",
+          "tag": "海",
+          "dur": 16.0,
+          "size": 135585,
+          "pack": "Nick McMahan - Cascadia Shore Waves"
+        },
+        {
+          "file": "pool/amb-waves/02-morning.ogg",
+          "label": "清晨海岸",
+          "tag": "海",
+          "dur": 16.0,
+          "size": 138578,
+          "pack": "Sonic Bat - Ambisonics - Beach"
+        },
+        {
+          "file": "pool/amb-waves/03-sand.ogg",
+          "label": "沙滩近浪",
+          "tag": "海",
+          "dur": 16.0,
+          "size": 132585,
+          "pack": "Nick McMahan - Cascadia Shore Waves"
+        }
+      ]
+    },
+    {
+      "id": "amb-wind",
+      "label": "林间风",
+      "group": "环境",
+      "desc": "穿过树冠的风声；雾天、冬季和雨天更明显。",
+      "picks": [
+        {
+          "file": "pool/amb-wind/01-aspen.ogg",
+          "label": "白杨阵风",
+          "tag": "自然",
+          "dur": 16.0,
+          "size": 137396,
+          "pack": "Pole Position - Wind In Trees"
+        },
+        {
+          "file": "pool/amb-wind/02-cherry.ogg",
+          "label": "樱树强风",
+          "tag": "自然",
+          "dur": 16.0,
+          "size": 137592,
+          "pack": "Pole Position - Wind In Trees"
+        },
+        {
+          "file": "pool/amb-wind/03-storm.ogg",
+          "label": "风暴低鸣",
+          "tag": "自然",
+          "dur": 14.0,
+          "size": 110435,
+          "pack": "344 Audio - Extreme Winds Vol. 1"
+        }
+      ]
+    },
+    {
+      "id": "amb-rain",
+      "label": "雨声",
+      "group": "环境",
+      "desc": "下雨时的雨幕底噪；晴/雾天静音。",
+      "picks": [
+        {
+          "file": "pool/amb-rain/01-thunder.ogg",
+          "label": "远雷长雨",
+          "tag": "雨",
+          "dur": 18.0,
+          "size": 148076,
+          "pack": "Bolt - Backyard Rain & Thunder - Suburban Rain Recordings"
+        },
+        {
+          "file": "pool/amb-rain/02-leaves.ogg",
+          "label": "林间雨叶",
+          "tag": "雨",
+          "dur": 16.0,
+          "size": 147005,
+          "pack": "Justsoundeffects - Forests of Norway"
+        },
+        {
+          "file": "pool/amb-rain/03-storm.ogg",
+          "label": "雷雨初落",
+          "tag": "雨",
+          "dur": 16.0,
+          "size": 135809,
+          "pack": "Epic Stock Media - Public Spaces - Storms Lakes Parks and Rural Nature Exteriors"
+        }
+      ]
+    },
+    {
+      "id": "amb-birds",
+      "label": "鸟鸣环境",
+      "group": "环境",
+      "desc": "白天的林鸟底噪，晴天/冬季白天出现。",
+      "picks": [
+        {
+          "file": "pool/amb-birds/01-conifer.ogg",
+          "label": "针叶林歌",
+          "tag": "自然",
+          "dur": 16.0,
+          "size": 133283,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/amb-birds/02-afternoon.ogg",
+          "label": "午后虫鸟",
+          "tag": "自然",
+          "dur": 16.0,
+          "size": 136544,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/amb-birds/03-spain.ogg",
+          "label": "西班牙夏声",
+          "tag": "自然",
+          "dur": 16.0,
+          "size": 147597,
+          "pack": "Jake Fielding - Sounds of Spain"
+        }
+      ]
+    },
+    {
+      "id": "amb-night",
+      "label": "夜虫环境",
+      "group": "环境",
+      "desc": "入夜后的蟋蟀、蛙与夜鸟，夜晚自动出现。",
+      "picks": [
+        {
+          "file": "pool/amb-night/01-owls.ogg",
+          "label": "夜枭与风",
+          "tag": "夜",
+          "dur": 16.0,
+          "size": 131210,
+          "pack": "Justsoundeffects - Forest Ambiences"
+        },
+        {
+          "file": "pool/amb-night/02-jungle.ogg",
+          "label": "湿夜虫鸣",
+          "tag": "夜",
+          "dur": 16.0,
+          "size": 143165,
+          "pack": "Epic Stock Media - Synthesized Nature Loops and Sounds"
+        },
+        {
+          "file": "pool/amb-night/03-cicadas.ogg",
+          "label": "夏夜蝉虫",
+          "tag": "夜",
+          "dur": 16.0,
+          "size": 147597,
+          "pack": "Jake Fielding - Sounds of Spain"
+        }
+      ]
+    },
+    {
+      "id": "amb-pond",
+      "label": "池塘水声",
+      "group": "环境",
+      "desc": "岛内溪流/池塘的细水声，白天晴天时轻轻垫底。",
+      "picks": [
+        {
+          "file": "pool/amb-pond/01-creek.ogg",
+          "label": "岩石溪涧",
+          "tag": "水",
+          "dur": 16.0,
+          "size": 147340,
+          "pack": "Nick McMahan - Cascadia Flowing Water"
+        },
+        {
+          "file": "pool/amb-pond/02-brook.ogg",
+          "label": "山溪潺潺",
+          "tag": "水",
+          "dur": 16.0,
+          "size": 139687,
+          "pack": "Bolt - Immersive Creek -  Ambisonic Recordings of Undisturbed Creeks in Vermont"
+        },
+        {
+          "file": "pool/amb-pond/03-alpine.ogg",
+          "label": "高山急流",
+          "tag": "水",
+          "dur": 16.0,
+          "size": 157801,
+          "pack": "Nick McMahan - Cascadia Flowing Water"
+        }
+      ]
+    },
+    {
+      "id": "amb-snow",
+      "label": "雪夜静谧",
+      "group": "环境",
+      "desc": "冬季的轻柔雪声（合成底噪），冬天常驻。",
+      "picks": [
+        {
+          "file": "pool/amb-snow/01-airy.ogg",
+          "label": "轻盈雪雾",
+          "tag": "雪",
+          "dur": 16.0,
+          "size": 133128,
+          "pack": "@synth"
+        },
+        {
+          "file": "pool/amb-snow/02-deep.ogg",
+          "label": "厚雪低鸣",
+          "tag": "雪",
+          "dur": 16.0,
+          "size": 111529,
+          "pack": "@synth"
+        }
+      ]
+    }
+  ]
+}
